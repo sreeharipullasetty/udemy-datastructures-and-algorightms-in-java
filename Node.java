@@ -6,6 +6,6 @@ public class Node {
 
 	public Node(int data, Node reference) {
 		this.data = data;
-		this.reference = reference;
+		this.reference = reference; 
 	}
 }
