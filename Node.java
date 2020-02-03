@@ -1,8 +1,8 @@
 package udemy.linkedlist;
 
 public class Node {
-	int data;
-	Node reference;
+	public int data;
+	public Node reference;
 
 	public Node(int data, Node reference) {
 		this.data = data;
