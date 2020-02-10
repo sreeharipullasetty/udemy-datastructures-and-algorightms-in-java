@@ -27,5 +27,5 @@ public class LinkedListBasedStackDemo {
 		System.out.println(stack.deleteStack());
 		stack.stackElements();
 	}
-
+ 
 }
