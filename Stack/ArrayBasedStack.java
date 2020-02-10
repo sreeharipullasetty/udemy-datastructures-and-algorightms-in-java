@@ -35,7 +35,7 @@ public class ArrayBasedStack {
 		if (isEmpty()) {
 			return "Stack is Empty";
 		}
-		return "Item: " + stack[topOfStack];
+		return "Item: " + stack[topOfStack]; 
 	}
 
 	public String deleteStack() {
