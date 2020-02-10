@@ -6,7 +6,7 @@ public class CircularDoubleLinkedList {
 	public void CreateDoubleLinkedList(int nodeValue) {
 		head = null;
 		tail = null;
-		Dnode node = new Dnode(nodeValue, null, null);
+		Dnode node = new Dnode(nodeValue, null, null); 
 		head = node;
 		tail = node;
 		head.next = node;
