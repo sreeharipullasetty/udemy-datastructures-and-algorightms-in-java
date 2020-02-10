@@ -34,7 +34,7 @@ public class LinkedListBasedStack {
 
 	public String peek() {
 		System.out.print("Peek: ");
-		if (isEmpty()) {
+		if (isEmpty()) { 
 			return "Stack is Empty";
 		}
 		return "Item: " + head.data;
