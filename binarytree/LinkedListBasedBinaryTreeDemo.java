@@ -20,6 +20,7 @@ public class LinkedListBasedBinaryTreeDemo {
 		System.out.println(bt.find(13));
 		System.out.println(bt.deleteNode(2));
 		System.out.println(bt.deleteNode(6));
+		bt.deleteBinaryTree();
 		bt.levelOrder();
 	}
 }

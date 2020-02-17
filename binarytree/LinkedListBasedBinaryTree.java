@@ -112,6 +112,11 @@ public class LinkedListBasedBinaryTree {
 		}
 	}
 
+	public void deleteBinaryTree(){
+		root = null;
+		System.out.println("Binary Tree Deleted.");
+	}
+	
 	public void enQueue(TreeNode tNode) {
 		QueueNode qNode = new QueueNode(tNode, null);
 		if (start == null) {
@@ -128,6 +133,5 @@ public class LinkedListBasedBinaryTree {
 
 	public void deQueue() {
 		start = start.next;
-
 	}
 }
